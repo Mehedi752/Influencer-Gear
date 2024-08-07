@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+CU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Shared Styles. */
+.display-flex {
+    display: flex;
+}
+
+
+
+/* Navbar Related Styles. */
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border: 1px solid blue; */
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.menu-icon{
+    display: none;
+}
+
+.nav-title {
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+}
+
+.nav-items {
+    gap: 34px;
+    align-items: center;
+}
+
+.nav-item-top{
+    gap: 34px;
+    align-items: center;
+}
+
+.nav-item {
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+}
+
+.nav-icon {
+    width: 19px;
+    height: 19px;
+}
+
+/* End of Navbar Related Styles. */
+
+
+
+/* Banner Related Styles. */
+.banner-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border: 1px solid blue; */
+    padding: 50px;
+    gap: 130px;
+}
+
+.banner-content {
+    padding-top: 50px;
+}
+
+.banner-title {
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0px;
+    margin-bottom: 1rem;
+}
+
+.banner-description {
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    padding-right: 100px;
+    margin-bottom: 1rem;
+
+}
+
+.banner-button {
+    width: 196px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 24px;
+    background: rgb(224, 44, 109);
+    border-radius: 41px;
+}
+
+.preebook-button {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+}
+
+.banner-image {
+    background: url(../images/Circle\ design.svg);
+}
+
+.image-top {
+    position: relative;
+    top: 7%;
+}
+
+/* End of Banner Related Styles. */
+
+
+/* Online Shopping Site Related Styles */
+.shopping-site {
+    max-width: 1130px;
+    margin: 30px auto;
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 70px;
+    padding-left: 50px;
+}
+
+
+
+/* Popular Collection Related Styles. */
+.popular-collection {
+    max-width: 1050px;
+    margin: 0 auto;
+    /* border: 1px solid blue; */
+}
+
+.popular-collection-title {
+    text-align: center;
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: 0px;
+}
+
+.collection-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.item {
+    width: 300px;
+    height: 476px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.item-image img {
+    width: 320px;
+    height: 256px;
+}
+
+.item-title {
+    color: rgb(24, 25, 31);
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+    margin: 16px 0px 10px 0px;
+}
+
+.item-price {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    margin: 0px;
+}
+
+.item-feedback {
+    gap: 5px;
+    align-items: center;
+}
+
+.item-feedback img {
+    width: 11.07px;
+    height: 10.32px;
+}
+
+.item-ratting {
+    width: 122px;
+    height: 30px;
+    margin: 0px;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.item-description {
+    color: rgb(120, 120, 133);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 143%;
+    letter-spacing: 1.8%;
+    margin-top: 0px;
+}
+
+.see-more {
+    align-items: center;
+    gap: 10px;
+    justify-content: end;
+}
+
+.see-more p {
+    color: rgba(224, 44, 109, 0.87);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+}
+
+/* End of Popular Collection Related Styles. */
+
+
+/* Feature Products Related Styles. */
+.feature-product {
+    max-width: 1110px;
+    margin: 50px auto;
+    /* border: 1px solid blue; */
+    gap: 90px;
+}
+
+.feature-title {
+    color: rgb(10, 8, 38);
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0px;
+}
+
+.feature-description {
+    color: rgb(108, 108, 108);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    padding-right: 100px;
+}
+
+.join-button {
+    width: 155px;
+    height: 44px;
+    background: rgb(224, 44, 109);
+    padding: 10px 24px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.join-now {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+}
+
+/* End of Feature Products Related Styles. */
+
+
+/* Footer Related Styles. */
+footer {
+    background-color: rgb(10, 8, 38);
+}
+
+.footer-container {
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.footer-title {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+}
+
+.footer-container p {
+    color: rgb(217, 219, 225);
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.footer-icons{
+    justify-content: center;
+    gap: 20px;
+}
+/* End of Footer Related Styles. */
